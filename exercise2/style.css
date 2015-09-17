@@ -1,0 +1,43 @@
+* { box-sizing:border-box; }
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: rgb(240, 240, 240);
+	background:url("http://morethanjustmodels.com/emma/wp-content/uploads/sites/21/2013/10/cucumber-veggie-of-the-week-ftr.jpg");
+	background-attachment: fixed;
+}
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.container {
+	width: 800px;
+	background-color: white;
+	padding:25px;
+	border:20px  dashed red;
+	margin: 0 auto; 
+
+}
+
+a {
+	color: red;
+	text-decoration: none;
+	transition-property: background;
+	transition-duration:1s;
+	transition-timing-function:linear;
+}
+a:hover {
+	font-style: italic;
+	background: yellow;
+
+}
+ul {
+	list-style: none;
+	padding:0;
+}
+li {
+	margin-bottom:em;
+}
+#table-of-contents li {
+	margin-bottom: 0;
+}
