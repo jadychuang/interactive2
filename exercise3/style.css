@@ -164,9 +164,7 @@ ul {
 }
 .mail {
 	width:1260px;
-	display:block;
 	margin-left:210px;
-
 }
 .mail-box {
 	float:left;
@@ -178,7 +176,6 @@ ul {
 	float:left;
 	width: 1155px;
     color: black;
-    margin-bottom:45px;
     border-bottom: 3px solid;
     display: block;
 }
@@ -186,8 +183,15 @@ ul {
 	float:left;
 	width: 1155px;
     color: black;
-    margin-bottom:45px;
+    margin-top:45px;
     border-bottom: 1px solid;
     height: 1px;
     display: block;
+}
+.footer {
+	float:left;
+	width:1155px;
+	height:20px;
+	background: black;
+	margin-bottom:30px;
 }
