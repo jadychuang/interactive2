@@ -1,0 +1,183 @@
+.container {
+	margin:0;
+	width:1380px;
+}
+.header {
+	margin-top: 20px;
+	margin-left:30px;
+	display: inline-block;
+}
+.logo {
+	background: black;
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+.searchbar {
+	margin-left: 80px;
+	float: left;
+	width: 590px;
+	height:30px;
+	border:1px solid black;
+}
+.searchicon {
+	float: left;
+	width: 60px;
+	height:32px;
+	background: rgb(73, 134, 234);
+}
+.yourname {
+	float:left;
+	width:40px;
+	height:15px;
+	background:black;
+	margin-left:300px;
+	margin-top:8px;
+}
+.options {
+	float:left;
+	width:25px;
+	height:25px;
+	background:black;
+	margin-left:15px;
+	margin-top:3px;
+}
+.circle {
+	float:left;
+	width: 20px;
+    height: 20px;
+    background: black;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-left:15px;
+    margin-top:5px;
+}
+.bigcircle {
+	float:left;
+	width: 40px;
+    height: 40px;
+    background: black;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-left:15px;
+
+}
+.line-seperator {
+	width: 1350px;
+    margin: 0 auto;
+    color: black;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-bottom: 1px solid;
+    height: 5px;
+    display: block;
+}
+
+.logo2 {
+	background: black;
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right:110px;
+}
+.options1 {
+	float:left;
+	width:75px;
+	height:30px;
+	background:black;
+	margin-left: 10px
+}
+.menu {
+	margin-left:30px;
+	margin-top:5px;
+	width:160px;
+	float:left;
+}
+.compose {
+	border: 1px solid;
+    border-radius: 5px;
+    width:120px;
+    height:30px;
+}
+.menu-line {
+	width: 160px;
+    margin: 0 auto;
+    color: black;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-bottom: 1px solid;
+    height: 5px;
+    display: block;
+}
+.menu-circle {
+	float:left;
+	width: 25px;
+    height: 25px;
+    background: black;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-top:5px;
+}
+.menu-name {
+	float:left;
+	width:40px;
+	height:15px;
+	background:black;
+	margin-left:10px;
+	margin-top:10px;
+}
+.menu-search {
+	float:right;
+	width:25px;
+	height:25px;
+	border: 1px solid;
+    border-radius: 5px;
+    margin-top:3px;
+}
+.menu-line2 {
+	width: 160px;
+    margin: 0 auto;
+    color: black;
+    margin-top:40px;
+    margin-bottom:5px;
+    border-bottom: 1px solid;
+    height: 5px;
+    display: block;
+}
+ul {
+	list-style-type: none;
+	padding-left:0;
+	line-height: 30px;
+}
+.mail {
+	width:1260px;
+	display:block;
+	margin-left:210px;
+
+}
+.mail-box {
+	float:left;
+	width:250px;
+	height:50px;
+	border: 1px solid black;
+}
+.mail-divider {
+	float:left;
+	width: 1155px;
+    color: black;
+    margin-bottom:45px;
+    border-bottom: 3px solid;
+    display: block;
+}
+.mail-line {
+	float:left;
+	width: 1155px;
+    color: black;
+    margin-bottom:45px;
+    border-bottom: 1px solid;
+    height: 1px;
+    display: block;
+}
