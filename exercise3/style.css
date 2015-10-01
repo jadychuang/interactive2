@@ -62,7 +62,7 @@
     -moz-border-radius: 25px;
     border-radius: 25px; 
     margin-left:15px;
-
+    margin-top:-3px;
 }
 .line-seperator {
 	width: 1350px;
@@ -142,6 +142,16 @@
     margin: 0 auto;
     color: black;
     margin-top:40px;
+    margin-bottom:5px;
+    border-bottom: 1px solid;
+    height: 5px;
+    display: block;
+}
+.menu-line3 {
+	width: 160px;
+    margin: 0 auto;
+    color: black;
+    margin-top:188px;
     margin-bottom:5px;
     border-bottom: 1px solid;
     height: 5px;
