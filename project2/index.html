@@ -9,64 +9,174 @@
 body {
 	font-family: 'Arvo',serif; 
 	font-size:15px;
-	line-height: 40px;
+	line-height: 30px;
+	background: black;
+	margin:40px;
+}
+#table-of-contents ul li a{
+	color:#E80C7A;
+	text-decoration: none;
+}
+#table-of-contents ul li{
+	display: inline-block;
+	margin-right:100px;
+	margin-top:30px;
+}
+#table-of-contents ul li a:hover{
+	cursor:s-resize;
+	font-size: 50px;
+	color:white;
 }
 h1 {
-	margin-top: 50px;
-	margin-left: 80px;
+	color:yellow;
+}
+.text ul li a{
+	text-decoration: none;
+}
+.text ul {
+    list-style-type: square;
+    color:red;
 }
 .text {
-	display: inline-block;
-	margin-left: 50px;
-		margin-right: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.number {
+	color: yellow;
+
+}
+.number-img {
+	margin-left: 10px;
+	opacity: 0;
+	-webkit-transition: all 500ms ease-in-out;
+}
+.number:hover {
+	color: white;
+	cursor:e-resize;
+}
+.number:hover .number-img {
+	opacity:1;
 }
 
 
 </style>
 </head>
 <body>
-	<h1>25 Variations</h1>
+	<img src="pictures/triangle.gif"><h1>25 Variations</h1>
+	<div id="table-of-contents">
+	<ul>
+		<li><a href="#one">Part One</a></li>
+		<li><a href="#two">Part Two</a></li>
+		<li><a href="#three">Part Three</a></li>
+		<li><a href="#four">Part Four</a></li>
+		<li><a href="#five">Part Five</a></li>
+	</ul>
+</div>
+	<div id="one">
 	<div class="text">
 	<ul>
-		<li><a href="01.html">ONE</a></li>
-		<li><a href="02.html">TWO</a></li>
-		<li><a href="03.html">THREE</a></li>
-		<li><a href="04.html">FOUR</a></li>
-		<li><a href="05.html">FIVE</a></li>
+		<li>
+			<a href="01.html"><span class="number">ONE<span class="number-img"><img src="pictures/01.png"></span></span></a>
+		</li>
+		<li>
+			<a href="02.html"><span class="number">TWO<span class="number-img"><img src="pictures/02.png"></span></span></a>
+		</li>
+		<li>
+			<a href="03.html"><span class="number">THREE<span class="number-img"><img src="pictures/03.png"></span></span></a>
+		</li>
+		<li>
+			<a href="04.html"><span class="number">FOUR<span class="number-img"><img src="pictures/04.png"></span></span></a>
+		</li>
+		<li>
+			<a href="05.html"><span class="number">FIVE<span class="number-img"><img src="pictures/02.png"></span></span></a>
+		</li>
 	</div>
+</div>
+<img src="pictures/divider.gif">
+	<div id="two">
 	<div class="text">
 	<ul>
-		<li><a href="06.html">SIX</a></li>
-		<li><a href="07.html">SEVEN</a></li>
-		<li><a href="08.html">EIGHT</a></li>
-		<li><a href="09.html">NINE</a></li>
-		<li><a href="10.html">TEN</a></li>
+		<li>
+			<a href="06.html"><span class="number">SIX<span class="number-img"><img src="pictures/06.png"></span></span></a>
+		</li>
+		<li>
+			<a href="07.html"><span class="number">SEVEN<span class="number-img"><img src="pictures/07.png"></span></span></a>
+		</li>
+		<li>
+			<a href="08.html"><span class="number">EIGHT<span class="number-img"><img src="pictures/08.png"></span></span></a>
+		</li>
+		<li>
+			<a href="09.html"><span class="number">NINE<span class="number-img"><img src="pictures/09.png"></span></span></a>
+		</li>
+		<li>
+			<a href="10.html"><span class="number">TEN<span class="number-img"><img src="pictures/10.png"></span></span></a>
+		</li>
 	</div>
+</div>
+<img src="pictures/divider2.gif">
+	<div id="three">
 	<div class="text">
 	<ul>
-		<li><a href="11.html">ELEVEN</a></li>
-		<li><a href="12.html">TWELVE</a></li>
-		<li><a href="13.html">THIRTEEN</a></li>
-		<li><a href="14.html">FOURTEEN</a></li>
-		<li><a href="15.html">FIFTEEN</a></li>
+		<li>
+			<a href="11.html"<span class="number">ELEVEN<span class="number-img"><img src="pictures/11.png"></span></span></a>
+		</li>
+		<li>
+			<a href="12.html"><span class="number">TWELVE<span class="number-img"><img src="pictures/12.png"></span></span></a>
+		</li>
+		<li>
+			<a href="13.html"><span class="number">THIRTEEN<span class="number-img"><img src="pictures/13.png"></span></span></a>
+		</li>
+		<li>
+			<a href="14.html"><span class="number">FOURTEEN<span class="number-img"><img src="pictures/14.png"></span></span></a>
+		</li>
+		<li><a href="15.html"><span class="number">FIFTEEN<span class="number-img"><img src="pictures/15.png"></span></span></a>
+		</li>
 	</div>
+</div>
+<img src="pictures/divider3.gif">
+	<div id="four">
 	<div class="text">
 	<ul>
-		<li><a href="16.html">SIXTEEN</a></li>
-		<li><a href="17.html">SEVENTEEN</a></li>
-		<li><a href="18.html">EIGHTEEN</a></li>
-		<li><a href="19.html">NINETEEN</a></li>
-		<li><a href="20.html">TWENTY</a></li>
+		<li>
+			<a href="16.html"><span class="number">SIXTEEN<span class="number-img"><img src="pictures/16.png"></span></span></a>
+			</li>
+		<li>
+			<a href="17.html"><span class="number">SEVENTEEN<span class="number-img"><img src="pictures/17.png"></span></span></a>
+		</li>
+		<li>
+			<a href="18.html"><span class="number">EIGHTEEN<span class="number-img"><img src="pictures/18.png"></span></span></a>
+		</li>
+		<li>
+			<a href="19.html"><span class="number">NINETEEN<span class="number-img"><img src="pictures/19.png"></span></span></a>
+		</li>
+		<li>
+			<a href="20.html"><span class="number">TWENTY<span class="number-img"><img src="pictures/20.png"></span></span></a>
+		</li>
 	</ul>
 	</div>
+</div>
+<img src="pictures/divider4.gif">
+	<div id="five">
 	<div class="text">
 	<ul>
-		<li><a href="21.html">TWENTY ONE</a></li>
-		<li><a href="22.html">TWENTY TWO</a></li>
-		<li><a href="23.html">TWENTY THREE</a></li>
-		<li><a href="24.html">TWENTY FOUR</a></li>
-		<li><a href="25.html">TWENTY FIVE</a></li>
+		<li>
+			<a href="21.html"><span class="number">TWENTY ONE<span class="number-img"><img src="pictures/21.png"></span></span></a>
+			</li>
+		<li>
+			<a href="22.html"><span class="number">TWENTY TWO<span class="number-img"><img src="pictures/22.png"></span></span></a>
+		</li>
+		<li>
+			<a href="23.html"><span class="number">TWENTY THREE<span class="number-img"><img src="pictures/23.png"></span></span></a>
+			</li>
+		<li>
+			<a href="24.html"><span class="number">TWENTY FOUR<span class="number-img"><img src="pictures/24.png"></span></span></a>
+		</li>
+		<li>
+			<a href="25.html"><span class="number">TWENTY FIVE<span class="number-img"><img src="pictures/25.png"></span></span></a>
+		</li>
 	</ul>
 	</div>
+</div>
+<img src="pictures/divider5.gif">
 </body>
 </html>
