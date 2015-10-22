@@ -1,0 +1,56 @@
+/*Base*/
+
+body { 
+	background: red; 
+}
+.girl {
+	width:250px;
+	height:300px;
+	background:url('../images/01.jpg');
+}
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+  body { 
+  	background: blue; 
+  }
+  .girl {
+  	background: url('../images/02.jpg');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body { 
+  	background: yellow; 
+  }
+  .girl {
+  	background: url('..images/03.jpg');
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body { 
+  	background: lime; 
+  }
+ .girl {
+  	background: url('..images/04.jpg');
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body { 
+  	background: #00FFFF; 
+  }
+   .girl {
+  	background: url('..images/05.jpg');
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body { 
+  	background: #FF00FF; 
+  }
+   .girl {
+  	background: url('..images/06.jpg');
+  }
+}
