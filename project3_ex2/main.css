@@ -1,0 +1,452 @@
+body {
+	background: #00FF00;
+}
+.letter {
+	display: inline-block;
+	float:left;
+	margin:20px;
+	position: relative;
+	background: #FF00CC;
+	width:250px;
+	height:350px;
+}
+/*LETTER A STARTS*/
+.a {
+	position: relative;
+
+}
+.a .ft {
+	width: 20px;
+	height:60px;
+	background: #000066;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.a .short-h1 {
+	width: 240px;
+	height:20px;
+	background: #000066;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.a .short-h2 {
+	width: 240px;
+	height:20px;
+	background: #000066;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.a .short-h3 {
+	width: 240px;
+	height:20px;
+	background: #000066;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+.a .short-v1 {
+	width: 20px;
+	height:150px;
+	background: #000066;
+	position: absolute;
+	left:0;
+	top:185;
+}
+.a .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000066;
+	position: absolute;
+	left:230;
+	top:25;
+}
+/*LETTER A ENDS*/
+/*LETTER B STARTS*/
+.b {
+	position: relative; 
+}
+.b .ft {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.b .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.b .short-h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.b .short-h2 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 20;
+	top: 330;
+}
+.b .short-v1 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:180;
+}
+/*LETTER B ENDS*/
+/*LETTER C STARTS*/
+.c {
+	position: relative; 
+}
+.c .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #0000CC;
+	position: absolute;
+	left:0;
+	top:25;
+}
+.c .short-h1 {
+	width: 240px;
+	height:20px;
+	background: #0000CC;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.c .ft {
+	width: 20px;
+	height:60px;
+	background: #0000CC;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.c .short-h2 {
+	width: 240px;
+	height:20px;
+	background: #0000CC;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+/*LETTER C ENDS*/
+/*LETTER D STARTS*/
+.d {
+	position: relative; 
+}
+.d .short-h1 {
+	width: 210px;
+	height:20px;
+	background: #0000FF;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.d .short-h2 {
+	width: 210px;
+	height:20px;
+	background: #0000FF;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.d .short-v1 {
+	width: 20px;
+	height:165px;
+	background: #0000FF;
+	position: absolute;
+	left:0;
+	top:180;
+}
+.d .ft {
+	width: 60px;
+	height:20px;
+	background: #0000FF;
+	position: absolute;
+	left:190;
+	top:0;
+}
+.d .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #0000FF;
+	position: absolute;
+	left:210;
+	top:15;
+}
+/*LETTER D ENDS*/
+/*LETTER E STARTS*/
+.e {
+	position: relative; 
+}
+.e .short-h1 {
+	width: 240px;
+	height:20px;
+	background: #006666;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.e .short-h2 {
+	width: 240px;
+	height:20px;
+	background: #006666;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.e .short-h3 {
+	width: 240px;
+	height:20px;
+	background: #006666;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.e .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #006666;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.e .short-v1 {
+	width: 20px;
+	height:175px;
+	background: #006666;
+	position: absolute;
+	left:230;
+	top:10;
+}
+.e .ft {
+	width: 20px;
+	height:60px;
+	background: #006666;
+	position: absolute;
+	left:230;
+	top:290;
+}
+/*LETTER E ENDS*/
+/*LETTER F STARTS*/
+.f {
+	position: relative; 
+}
+.f .short-h1 {
+	width: 220px;
+	height:20px;
+	background: #006699;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.f .short-h2 {
+	width: 220px;
+	height:20px;
+	background: #006699;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.f .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #006699;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.f .ft {
+	width: 60px;
+	height:20px;
+	background: #006699;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*LETTER F ENDS*/
+/*LETTER G STARTS*/
+.g {
+	position: relative; 
+}
+
+/*#0066CC*/
+/*LETTER G ENDS*/
+/*LETTER H STARTS*/
+.h {
+	position: relative;
+}
+.h .long-v1{
+	width: 20px;
+	height:350px;
+	background: #0066FF;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.h .short-h1{
+	width: 200px;
+	height:20px;
+	background: #0066FF;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.h .short-v1{
+	width: 20px;
+	height:165px;
+	background: #0066FF;
+	position: absolute;
+	left:210;
+	top:180;
+}
+.h .ft{
+	width: 60px;
+	height:20px;
+	background: #0066FF;
+	position: absolute;
+	left:190;
+	top:330;
+}
+/*LETTER H ENDS*/
+/*LETTER I STARTS*/
+.i {
+	position: relative;
+}
+.i .long-v1 {
+	width: 20px;
+	height:350px;
+	background: #00CC66;
+	position: absolute;
+	left:115;
+	top:0;
+}
+.i .ft {
+	width: 60px;
+	height:20px;
+	background: #00CC66;
+	position: absolute;
+	left:95;
+	top:330;
+}
+/*LETTER I ENDS*/
+/*LETTER J STARTS*/
+.j {
+	position: relative;
+}
+.j .long-v1 {
+	width: 20px;
+	height:325px;
+	background: #00CC99;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.j .short-h1 {
+	width: 220px;
+	height:20px;
+	background: #00CC99;
+	position: absolute;
+	left: 20;
+	top: 310;
+}
+.j .ft {
+	width: 20px;
+	height:60px;
+	background: #00CC99;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*LETTER J ENDS*/
+/*LETTER K STARTS*/
+.k {
+	position: relative;
+}
+.k .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #00CCCC;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.k .short-h1 {
+	width: 220px;
+	height:20px;
+	background: #00CCCC;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.k .short-v1 {
+	width: 20px;
+	height:190px;
+	background: #00CCCC;
+	position: absolute;
+	left:180;
+	top:0;
+}
+.k .short-v2 {
+	width: 20px;
+	height:170px;
+	background: #00CCCC;
+	position: absolute;
+	left:230;
+	top:180;
+}
+.k .ft {
+	width: 60px;
+	height:20px;
+	background: #00CCCC;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*LETTER K ENDS*/
+/*LETTER L STARTS*/
+.l {
+	position: relative;
+}
+.l .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #00CCFF;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.l .short-h1 {
+	width: 220px;
+	height:20px;
+	background: #00CCFF;
+	position: absolute;
+	left: 10;
+	top: 310;
+}
+.l .ft {
+	width: 20px;
+	height:60px;
+	background: #00CCFF;
+	position: absolute;
+	left:230;
+	top:290;
+}
+/*LETTER L ENDS*/
+/*LETTER M STARTS*/
