@@ -18,7 +18,7 @@ body {
 .a .ft {
 	width: 20px;
 	height:60px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:0;
@@ -26,7 +26,7 @@ body {
 .a .h1 {
 	width: 240px;
 	height:20px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:20;
@@ -34,7 +34,7 @@ body {
 .a .h2 {
 	width: 240px;
 	height:20px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:175;
@@ -42,7 +42,7 @@ body {
 .a .h3 {
 	width: 240px;
 	height:20px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left: 5;
 	top: 330;
@@ -50,7 +50,7 @@ body {
 .a .short-v1 {
 	width: 20px;
 	height:150px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:185;
@@ -58,7 +58,7 @@ body {
 .a .long-v1 {
 	width: 20px;
 	height:320px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:25;
@@ -116,7 +116,7 @@ body {
 .c .long-v1 {
 	width: 20px;
 	height:320px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:25;
@@ -124,7 +124,7 @@ body {
 .c .h1 {
 	width: 240px;
 	height:20px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:20;
@@ -132,7 +132,7 @@ body {
 .c .ft {
 	width: 20px;
 	height:60px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:0;
@@ -140,7 +140,7 @@ body {
 .c .h2 {
 	width: 240px;
 	height:20px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left: 5;
 	top: 330;
@@ -153,7 +153,7 @@ body {
 .d .h1 {
 	width: 210px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:10;
 	top:175;
@@ -161,7 +161,7 @@ body {
 .d .h2 {
 	width: 210px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left: 10;
 	top: 330;
@@ -169,7 +169,7 @@ body {
 .d .short-v1 {
 	width: 20px;
 	height:165px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:180;
@@ -177,7 +177,7 @@ body {
 .d .ft {
 	width: 60px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:0;
@@ -185,7 +185,7 @@ body {
 .d .long-v1 {
 	width: 20px;
 	height:330px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:15;
@@ -198,7 +198,7 @@ body {
 .e .h1 {
 	width: 240px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -206,7 +206,7 @@ body {
 .e .h2 {
 	width: 240px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:175;
@@ -214,7 +214,7 @@ body {
 .e .h3 {
 	width: 240px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left: 5;
 	top: 310;
@@ -222,7 +222,7 @@ body {
 .e .long-v1 {
 	width: 20px;
 	height:320px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -230,7 +230,7 @@ body {
 .e .short-v1 {
 	width: 20px;
 	height:175px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:10;
@@ -238,7 +238,7 @@ body {
 .e .ft {
 	width: 20px;
 	height:60px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:290;
@@ -251,7 +251,7 @@ body {
 .f .h1 {
 	width: 220px;
 	height:20px;
-	background: #006699;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:0;
@@ -259,7 +259,7 @@ body {
 .f .h2 {
 	width: 220px;
 	height:20px;
-	background: #006699;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:175;
@@ -267,7 +267,7 @@ body {
 .f .long-v1 {
 	width: 20px;
 	height:330px;
-	background: #006699;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:20;
@@ -275,7 +275,7 @@ body {
 .f .ft {
 	width: 60px;
 	height:20px;
-	background: #006699;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:330;
@@ -285,7 +285,78 @@ body {
 .g {
 	position: relative; 
 }
-
+.g .short-v1 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:40;
+	top:10;
+}
+.g .short-v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:190;
+	top:10;
+}
+.g .short-h1 {
+	width: 150px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:0;
+}
+.g .short-h2 {
+	width: 150px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:145;
+}
+.g .middle {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:145;
+}
+.g .long-v1 {
+	width: 20px;
+	height:140px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:205;
+}
+.g .long-v2 {
+	width: 20px;
+	height:140px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:205;
+}
+.g .long-h1 {
+	width: 235px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:195;
+}
+.g .long-h2 {
+	width: 235px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:330;
+}
 /*#0066CC*/
 /*LETTER G ENDS*/
 /*LETTER H STARTS*/
@@ -295,7 +366,7 @@ body {
 .h .long-v1{
 	width: 20px;
 	height:350px;
-	background: #0066FF;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:0;
@@ -303,7 +374,7 @@ body {
 .h .h1{
 	width: 200px;
 	height:20px;
-	background: #0066FF;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:175;
@@ -311,7 +382,7 @@ body {
 .h .short-v1{
 	width: 20px;
 	height:165px;
-	background: #0066FF;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:180;
@@ -319,7 +390,7 @@ body {
 .h .ft{
 	width: 60px;
 	height:20px;
-	background: #0066FF;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -332,7 +403,7 @@ body {
 .i .long-v1 {
 	width: 20px;
 	height:350px;
-	background: #00CC66;
+	background: #000099;
 	position: absolute;
 	left:115;
 	top:0;
@@ -340,7 +411,7 @@ body {
 .i .ft {
 	width: 60px;
 	height:20px;
-	background: #00CC66;
+	background: #000099;
 	position: absolute;
 	left:95;
 	top:330;
@@ -353,7 +424,7 @@ body {
 .j .long-v1 {
 	width: 20px;
 	height:325px;
-	background: #00CC99;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:0;
@@ -361,7 +432,7 @@ body {
 .j .h1 {
 	width: 220px;
 	height:20px;
-	background: #00CC99;
+	background: #000099;
 	position: absolute;
 	left: 20;
 	top: 310;
@@ -369,7 +440,7 @@ body {
 .j .ft {
 	width: 20px;
 	height:60px;
-	background: #00CC99;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:290;
@@ -382,7 +453,7 @@ body {
 .k .long-v1 {
 	width: 20px;
 	height:330px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:0;
@@ -390,7 +461,7 @@ body {
 .k .h1 {
 	width: 220px;
 	height:20px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:175;
@@ -398,7 +469,7 @@ body {
 .k .short-v1 {
 	width: 20px;
 	height:190px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:180;
 	top:0;
@@ -406,7 +477,7 @@ body {
 .k .short-v2 {
 	width: 20px;
 	height:170px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:180;
@@ -414,7 +485,7 @@ body {
 .k .ft {
 	width: 60px;
 	height:20px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:330;
@@ -427,7 +498,7 @@ body {
 .l .long-v1 {
 	width: 20px;
 	height:320px;
-	background: #00CCFF;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:0;
@@ -435,7 +506,7 @@ body {
 .l .h1 {
 	width: 220px;
 	height:20px;
-	background: #00CCFF;
+	background: #000099;
 	position: absolute;
 	left: 10;
 	top: 310;
@@ -443,7 +514,7 @@ body {
 .l .ft {
 	width: 20px;
 	height:60px;
-	background: #00CCFF;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:290;
@@ -456,7 +527,7 @@ body {
 .m .long-v1 {
 	width: 20px;
 	height:345px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -464,7 +535,7 @@ body {
 .m .long-v2 {
 	width: 20px;
 	height:345px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:115;
 	top:5;
@@ -472,7 +543,7 @@ body {
 .m .long-v3 {
 	width: 20px;
 	height:345px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:5;
@@ -480,7 +551,7 @@ body {
 .m .ft {
 	width: 60px;
 	height:20px;
-	background: #00CC66;
+	background: #000099;
 	position: absolute;
 	left:95;
 	top:330;
@@ -488,7 +559,7 @@ body {
 .m .h1 {
 	width: 240px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -501,7 +572,7 @@ body {
 .n .long-v1 {
 	width: 20px;
 	height:345px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -509,7 +580,7 @@ body {
 .n .h1 {
 	width: 220px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -517,7 +588,7 @@ body {
 .n .long-v2 {
 	width: 20px;
 	height:330px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:5;
@@ -525,7 +596,7 @@ body {
 .n .ft {
 	width: 60px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -538,7 +609,7 @@ body {
 .o .h1 {
 	width: 245px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -546,7 +617,7 @@ body {
 .o .h2 {
 	width: 210px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left: 10;
 	top: 330;
@@ -554,7 +625,7 @@ body {
 .o .long-v1 {
 	width: 20px;
 	height:340px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -562,7 +633,7 @@ body {
 .o .long-v2 {
 	width: 20px;
 	height:340px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:5;
@@ -575,7 +646,7 @@ body {
 .p .long-v1 {
 	width: 20px;
 	height:330px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:0;
@@ -583,7 +654,7 @@ body {
 .p .ft {
 	width: 60px;
 	height:20px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:330;
@@ -591,7 +662,7 @@ body {
 .p .h1 {
 	width: 220px;
 	height:20px;
-	background: #006699;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:0;
@@ -599,7 +670,7 @@ body {
 .p .h2 {
 	width: 225px;
 	height:20px;
-	background: #006699;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:175;
@@ -607,7 +678,7 @@ body {
 .p .short-v1 {
 	width: 20px;
 	height:175px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:5;
@@ -620,7 +691,7 @@ body {
 .q .h1 {
 	width: 220px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -628,7 +699,7 @@ body {
 .q .h2 {
 	width: 210px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:10;
 	top:175;
@@ -636,7 +707,7 @@ body {
 .q .short-v1 {
 	width: 20px;
 	height:185px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -644,7 +715,7 @@ body {
 .q .long-v1 {
 	width: 20px;
 	height:330px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:5;
@@ -652,7 +723,7 @@ body {
 .q .ft {
 	width: 60px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -665,7 +736,7 @@ body {
 .r .long-v1 {
 	width: 20px;
 	height:345px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -673,7 +744,7 @@ body {
 .r .h1 {
 	width: 170px;
 	height:20px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -681,7 +752,7 @@ body {
 .r .h2 {
 	width: 200px;
 	height:20px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:20;
 	top:175;
@@ -689,7 +760,7 @@ body {
 .r .short-v1 {
 	width: 20px;
 	height:190px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:160;
 	top:5;
@@ -697,7 +768,7 @@ body {
 .r .short-v2 {
 	width: 20px;
 	height:170px;
-	background: #00CCCC;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:180;
@@ -705,7 +776,7 @@ body {
 .r .ft {
 	width: 60px;
 	height:20px;
-	background: #0000FF;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -718,7 +789,7 @@ body {
 .s .h1 {
 	width: 245px;
 	height:20px;
-	background: #006666;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:0;
@@ -726,7 +797,7 @@ body {
 .s .h2 {
 	width: 245px;
 	height:20px;
-	background: #000066;
+	background: #000099;
 	position: absolute;
 	left:5;
 	top:175;
@@ -734,7 +805,7 @@ body {
 .s .h3 {
 	width: 230px;
 	height:20px;
-	background: #00CC99;
+	background: #000099;
 	position: absolute;
 	left: 20;
 	top: 310;
@@ -742,7 +813,7 @@ body {
 .s .short-v1 {
 	width: 20px;
 	height:185px;
-	background: #0000CC;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:5;
@@ -750,7 +821,7 @@ body {
 .s .short-v2 {
 	width: 20px;
 	height:145px;
-	background: #0066FF;
+	background: #000099;
 	position: absolute;
 	left:210;
 	top:180;
@@ -758,7 +829,7 @@ body {
 .s .ft {
 	width: 20px;
 	height:60px;
-	background: #00CC99;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:290;
@@ -792,3 +863,306 @@ body {
 	left:0;
 	top:40;
 }
+/*LETTER T ENDS*/
+/*LETTER U STARTS*/
+.u {
+	position: relative;
+}
+.u .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.u .long-v2 {
+	width: 20px;
+	height:335px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+.u .h1 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.u .ft {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:190;
+	top:0;
+}
+/*LETTER U ENDS*/
+/*LETTER V STARTS*/
+.v {
+	position: relative;
+}
+.v .long-v1 {
+	width: 20px;
+	height:295px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.v .long-v2 {
+	width: 20px;
+	height:290px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+.v .h1 {
+	width:60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:285;
+}
+.v .h2 {
+	width:90px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:70;
+	top:330;
+}
+.v .h3 {
+	width:60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:165;
+	top:285;
+}
+.v .short-v1 {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:290;
+}
+.v .short-v2 {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:160;
+	top:290;
+}
+.v .ft{
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:190;
+	top:0;
+}
+/*LETTER V ENDS*/
+/*LETTER W STARTS*/
+.w {
+	position: relative;
+}
+.w .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.w .long-v2 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:0;
+}
+.w .long-v3 {
+	width: 20px;
+	height:335px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.w .h1 {
+	width: 235px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.w .ft {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:0;
+}
+/*LETTER W ENDS*/
+/*LETTER X STARTS*/
+.x {
+	position: relative;
+}
+.x .x-1 {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:40;
+	top:0;
+}
+.x .x-2 {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:190;
+	top:0;
+}
+.x .x-3 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:185;
+}
+.x .x-4 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:185;
+}
+.x .h1 {
+	width: 230px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.x .ft {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:170;
+	top:0;
+}
+/*LETTER X ENDS*/
+/*LETTER Y STARTS*/
+.y {
+	position: relative;
+}
+.y .y-left {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.y .y-right {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.y .h1 {
+	width: 230px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.y .stem {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:185;
+}
+.y .ft {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:330;
+}
+/*LETTER Y ENDS*/
+/*LETTER Z STARTS*/
+.z {
+	position: relative;
+}
+.z .h1 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.z .h2 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:175;
+}
+.z .h3 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 0;
+	top: 310;
+}
+.z .v1 {
+	width: 20px;
+	height:175px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:5;
+}
+.z .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:40;
+	top:180;
+}
+.z .ft {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:290;
+}
+/*LETTER Z ENDS*/
