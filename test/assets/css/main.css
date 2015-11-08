@@ -1,15 +1,21 @@
 body {
 	background: #00FF00;
 }
+
+
 .letter {
 	display: inline-block;
 	float:left;
 	margin:20px;
 	position: relative;
-	background: #FF00CC;
 	width:250px;
 	height:350px;
 }
+.letters {
+	margin: 0 auto;
+
+}
+
 /*LETTER A STARTS*/
 .a {
 	position: relative;
@@ -1166,3 +1172,13 @@ body {
 	top:290;
 }
 /*LETTER Z ENDS*/
+
+
+.letter-definition {
+    display: none;
+}
+
+.space {
+	width: 200px;
+	height: 200px;
+}
