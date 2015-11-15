@@ -4,7 +4,7 @@ body {
 }
 body.home {
 	background: yellow;
-	margin:50px;
+	margin:40px;
 }
 .letter {
 	display: inline-block;
