@@ -1,8 +1,11 @@
 body {
 	background: #00FF00;
+	margin: 10px 40px;
 }
-
-
+body.home {
+	background: yellow;
+	margin:50px;
+}
 .letter {
 	display: inline-block;
 	float:left;
@@ -13,11 +16,34 @@ body {
 	height:350px;
 	transform:scale(0.6);
 }
+.number {
+	display: inline-block;
+	float:left;
+	margin:-50px;
+	margin-bottom: -100px;
+	position: relative;
+	width:125px;
+	height:350px;
+	transform:scale(0.6);
+}
 .letters {
 	margin: 0 auto;
-
 }
-
+button {
+  color: yellow;
+  font-size: 20px;
+  background: #000099;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  border:none;
+  letter-spacing: 5px;
+}
+button:hover {
+color:white;
+  background: #eb008b;
+  text-decoration: none;
+}
 /*LETTER A STARTS*/
 .a {
 	position: relative;
@@ -1176,9 +1202,635 @@ body {
 /*LETTER Z ENDS*/
 /*NUMBER ONE STARTS*/
 .one {
-	
+	position: relative;
+}
+.one .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.one .v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:5;
+}
+.one .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:65;
+	top:330;
+}
+/*NUMBER ONE ENDS*/
+/*NUMBER TWO STARTS*/
+.two {
+	position: relative;
+}
+.two .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.two .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.two .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.two .curve {
+	width:20px;
+	height:80px;
+	background: #000099;
+	position:absolute;
+	left:0;
+	top:5;
+}
+.two .v1 {
+	width: 20px;
+	height:175px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:5;
+}
+.two .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:180;
+}
+.two .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:95;
+	top:290;
+}
+/*NUMBER TWO ENDS*/
+/*NUMBER THREE STARTS*/
+.three {
+	position: relative;
+}
+.three .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.three .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.three .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.three .v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:5;
+}
+.three .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER THREE ENDS*/
+/*NUMBER FOUR STARTS*/
+.four {
+	position: relative;
+}
+.four .v1-short {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.four .v2-long {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:0;
+}
+.four .h1 {
+	width: 80px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.four .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:65;
+	top:330;
+}
+/*NUMBER FOUR ENDS*/
+/*NUMBER FIVE STARTS*/
+.five {
+	position: relative;
+}
+.five .v1 {
+	width:20px;
+	height:180px;
+	background: #000099;
+	position:absolute;
+	left:0;
+	top:5;
+}
+.five .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:180;
+}
+.five .curve {
+	width:20px;
+	height:80px;
+	background: #000099;
+	position:absolute;
+	left:95;
+	top:5;
+}
+.five .h1 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.five .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.five .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.five .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER FIVE ENDS*/
+/*NUMBER SIX STARTS*/
+.six {
+	position: relative;
+}
+.six .v1-long {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:25;
+}
+.six .h1 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.six .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.six .h3 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+.six .v2-short {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:180;
+}
+.six .ft {
+	width:20px;
+	height:60px;
+	background: #EB008B;
+	position:absolute;
+	left:95;
+	top:0;
+}
+/*NUMBER SIX ENDS*/
+/*NUMBER SEVEN STARTS*/
+.seven {
+	position: relative;
+}
+.seven .h1 {
+	width: 80px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.seven .v1 {
+	width: 20px;
+	height:325px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:25;
+}
+.seven .h2 {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:65;
+	top:175;
+}
+.seven .ft {
+	width:20px;
+	height:60px;
+	background: #EB008B;
+	position:absolute;
+	left:0;
+	top:0;
+}
+/*NUMBER SEVEN ENDS*/
+/*NUMBER EIGHT STARTS*/
+.eight {
+	position: relative;
+}
+.eight .v-left {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.eight .v-right {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:5;
+}
+.eight .h1 {
+	width: 120px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.eight .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.eight .h3 {
+	width: 90px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+/*NUMBER EIGHT ENDS*/
+/*NUMBER NINE STARTS*/
+.nine {
+	position: relative;
+}
+.nine .v1-short {
+	width: 20px;
+	height:185px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.nine .v2-long {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:5;
+}
+.nine .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.nine .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.nine .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.nine .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER NINE ENDS*/
+/*NUMBER ZERO STARTS*/
+.zero {
+	position: relative;
+}
+.zero .v-left {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.zero .v-right {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:5;
+}
+.zero .h1 {
+	width: 120px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.zero .h2 {
+	width: 90px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+/*NUMBER ZERO ENDS*/
+/*NUMBER MONEY STARTS*/
+.money {
+	position: relative;
+}
+.money .v1 {
+	width:20px;
+	height:160px;
+	background: #000099;
+	position:absolute;
+	left:0;
+	top:25;
+}
+.money .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:180;
+}
+.money .middle {
+	width: 20px;
+	height:350px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:0;
+}
+.money .h1 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.money .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.money .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.money .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER MONEY ENDS*/
+/*NUMBER QUESTION STARTS*/
+.question {
+	position: relative;
+}
+.question .ft {
+	width:20px;
+	height:60px;
+	background: #EB008B;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.question .h1 {
+	width: 85px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.question .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.question .v1 {
+	width: 20px;
+	height:160px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:25;
+}
+.question .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:180;
+}
+.question .dot {
+	width: 20px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*NUMBER QUESTION ENDS*/
+/*NUMBER ! STARTS*/
+.ex {
+	position: relative;
+}
+.ex .v1 {
+	width: 20px;
+	height:325px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.ex .dot {
+	width: 20px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*NUMBER ! ENDS*/
+/*ARROW STARTS*/
+.arrow {
+	position: relative;
 }
 
+.arrow .h1 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:175;
+}
+
+.arrow .d1 {
+	width: 70px;
+	height:20px;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	background: #000099;
+	position: absolute;
+	left: 150px;
+    top: 150px;
+}
+
+.arrow .d2 {
+	width: 70px;
+	height:20px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+	background: #000099;
+	position: absolute;
+	left: 150px;
+    top: 200px;
+}
+/*ARROW ENDS*/
 
 .letter-definition {
     display: none;
@@ -1187,4 +1839,5 @@ body {
 .space {
 	width: 200px;
 	height: 200px;
+	background: transparent !important;
 }

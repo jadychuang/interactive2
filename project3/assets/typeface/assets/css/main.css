@@ -1769,3 +1769,42 @@ body {
 	top:330;
 }
 /*NUMBER ! ENDS*/
+/*ARROW STARTS*/
+.arrow {
+	position: relative;
+}
+
+.arrow .h1 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:175;
+}
+
+.arrow .d1 {
+	width: 70px;
+	height:20px;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	background: #000099;
+	position: absolute;
+	left: 150px;
+    top: 150px;
+}
+
+.arrow .d2 {
+	width: 70px;
+	height:20px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+	background: #000099;
+	position: absolute;
+	left: 150px;
+    top: 200px;
+}
+
+/*ARROW ENDS*/
