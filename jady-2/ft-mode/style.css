@@ -1,22 +1,34 @@
+
 body {
 	background: #00FF00;
+	margin: 10px 40px;
 }
 
 
 .letter {
 	display: inline-block;
-	float:left;
 	margin:-50px;
 	margin-bottom: -100px;
 	position: relative;
 	width:250px;
 	height:350px;
-	transform:scale(0.6);
+	transform:scale(0.5);
 }
+
 .letters {
 	margin: 0 auto;
 
 }
+
+/*HOME*/
+
+body.home {
+	background: yellow;
+}
+
+/*body.home .letter div {
+	background: black;
+}*/
 
 /*LETTER A STARTS*/
 .a {
@@ -26,7 +38,7 @@ body {
 .a .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:0;
@@ -79,7 +91,7 @@ body {
 .b .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:0;
@@ -140,7 +152,7 @@ body {
 .c .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:0;
@@ -185,7 +197,7 @@ body {
 .d .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:0;
@@ -246,7 +258,7 @@ body {
 .e .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:290;
@@ -283,7 +295,7 @@ body {
 .f .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:330;
@@ -398,7 +410,7 @@ body {
 .h .ft{
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -419,7 +431,7 @@ body {
 .i .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:95;
 	top:330;
@@ -448,7 +460,7 @@ body {
 .j .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:290;
@@ -493,7 +505,7 @@ body {
 .k .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:330;
@@ -522,7 +534,7 @@ body {
 .l .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:290;
@@ -559,7 +571,7 @@ body {
 .m .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:95;
 	top:330;
@@ -604,7 +616,7 @@ body {
 .n .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -662,7 +674,7 @@ body {
 .p .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:330;
@@ -731,7 +743,7 @@ body {
 .q .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -784,7 +796,7 @@ body {
 .r .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:330;
@@ -837,7 +849,7 @@ body {
 .s .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:290;
@@ -866,7 +878,7 @@ body {
 .t .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:0;
 	top:40;
@@ -903,7 +915,7 @@ body {
 .u .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:0;
@@ -972,7 +984,7 @@ body {
 .v .ft{
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:190;
 	top:0;
@@ -1017,7 +1029,7 @@ body {
 .w .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:95;
 	top:0;
@@ -1070,7 +1082,7 @@ body {
 .x .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:170;
 	top:0;
@@ -1115,7 +1127,7 @@ body {
 .y .ft {
 	width: 60px;
 	height:20px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:95;
 	top:330;
@@ -1168,17 +1180,51 @@ body {
 .z .ft {
 	width: 20px;
 	height:60px;
-	background: #EB008B;
+	background: #000099;
 	position: absolute;
 	left:230;
 	top:290;
 }
 /*LETTER Z ENDS*/
-/*NUMBER ONE STARTS*/
-.one {
-	
+/*ARROW STARTS*/
+.arrow {
+	position: relative;
 }
 
+.arrow .h1 {
+	width: 230px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+
+.arrow .d1 {
+	width: 60px;
+	height:20px;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	background: #000099;
+	position: absolute;
+	right: 6px;
+    top: 140px;
+}
+
+.arrow .d2 {
+	width: 60px;
+	height:20px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+	background: #000099;
+	position: absolute;
+	right: 6px;
+    top: 210px;
+}
+
+/*ARROW ENDS*/
 
 .letter-definition {
     display: none;
@@ -1187,4 +1233,9 @@ body {
 .space {
 	width: 200px;
 	height: 200px;
+	background: transparent !important;
 }
+
+/*.ft {
+	background: yellow !important;
+}*/
