@@ -1,7 +1,8 @@
-body{
+/**HOME PAGE STARTS**/
+.home-bg {
 	background-image: url(../img/home.jpg);
-	background-size: 100%;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 .home {
 	width:60px;
@@ -72,4 +73,49 @@ h3 {
 }
 .home-button:hover{
 	background: #228dfb;
+}
+/**HOME PAGE ENDS**/
+/**GEAR TR STARTS**/
+.gear-bg {
+	background-image: url(../img/gear.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.container2 {
+	width:400px;
+	height:300px;
+	float: left;
+	margin-top: 400px;
+	position: relative;
+}
+.container2 h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #abafb6;
+}
+.gear-button {
+	width:185px;
+	height: 17px;
+	font-size: 14px;
+	background-color:#1f76d1;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 25px;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.gear-button a {
+	color:white;
+	text-decoration: none;
+}
+.gear-button:hover{
+	background: #228dfb;
+}
+/**GEAR TR ENDS**/
+/**ICE STARTS**/
+.container-ice {
+	width:1420px;
+	
+
 }
