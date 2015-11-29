@@ -11,8 +11,8 @@ body {
 	width:60px;
 	height: 40px;
 	position: relative;
-	margin-left: 40px;
-	margin-top: 20px;
+	margin-left: 25px;
+	margin-top: 10px;
 	float: left;
 }
 /**MENU BAR STARTS**/
@@ -20,7 +20,7 @@ body {
 	float: right;
 	position: relative;
 	margin-right: 550px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 #nav {
 	list-style: none;
@@ -145,20 +145,16 @@ p{
 /**SECTION ENDS**/
 /**SECTION FIVE STARTS**/
 .section5-box {
-	width:500px;
+	width:400px;
 	color:black;
-	text-align: center;
-	padding-top: 60px;
-	padding-left:460px;
-	padding-right: 460px;
+	padding-top: 350px;
+	padding-left:100px;
 }
 .section5-box p{
 	margin-top: 30px;
-	text-align: center;
 	color: #abafb6;
-	margin-bottom: 150px;
 }
-.amazon-button {
+.delta-button {
 	width:185px;
 	height: 17px;
 	font-size: 14px;
@@ -168,14 +164,15 @@ p{
 	padding-right: 20px;
 	padding-top:10px;
 	padding-bottom: 10px;
+	margin-top: 20px;
 }
-.amazon-button a {
+.delta-button a {
 	color:white;
 	text-decoration: none;
 }
-.amazon-button:hover{
+.delta-button:hover{
 	background: #228dfb;
-
+}
 
 /**SECTIONS FIVE ENDS**/
 /**SLIDES**/
@@ -200,4 +197,7 @@ p{
 	height:300px;
 	margin: 0;
 	background-size:cover;
+}
+#slide5{
+	background: url(../img/plane.png) 100% 0 no-repeat fixed;
 }
