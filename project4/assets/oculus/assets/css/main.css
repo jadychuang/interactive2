@@ -1,3 +1,6 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
 /**HOME PAGE STARTS**/
 .home-bg {
 	background-image: url(../img/home.jpg);
@@ -22,7 +25,6 @@
 #nav {
 	list-style: none;
 	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
 }
 #nav li {
 	float: left;
@@ -46,21 +48,26 @@
 	position: relative;
 }
 h1 {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 	line-height: 0.6em;
 }
+h2 {
+	font-size: 24px;
+}
 h3 {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
 	color: #abafb6;
+}
+
+p{
+	font-size: 16px;
+	line-height: 1.4em;
 }
 .home-button {
 	width:85px;
 	height: 17px;
 	font-size: 14px;
 	background-color:#1f76d1;
-	font-family: 'Montserrat', sans-serif;
 	border-radius: 25px;
 	padding-left:55px;
 	padding-right: 55px;
@@ -75,30 +82,23 @@ h3 {
 	background: #228dfb;
 }
 /**HOME PAGE ENDS**/
-/**GEAR TR STARTS**/
-.gear-bg {
-	background-image: url(../img/gear.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-.container2 {
+/**SECTION ONE STARTS**/
+.section1-box {
 	width:400px;
 	height:300px;
 	float: left;
 	margin-top: 400px;
 	position: relative;
 }
-.container2 h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+.section1-box h4 {
 	color: #abafb6;
+	font-size: 18px;
 }
 .gear-button {
 	width:185px;
 	height: 17px;
 	font-size: 14px;
 	background-color:#1f76d1;
-	font-family: 'Montserrat', sans-serif;
 	border-radius: 25px;
 	padding-left:20px;
 	padding-right: 20px;
@@ -112,10 +112,92 @@ h3 {
 .gear-button:hover{
 	background: #228dfb;
 }
-/**GEAR TR ENDS**/
-/**ICE STARTS**/
-.container-ice {
-	width:1420px;
-	
+/**SECTIONS ONE ENDS**/
+/**SECTIONS**/
+.section2-box{
+	float: left;
+	margin-top: 300px;
+	margin-left: 300px;
+	color:white;
+}
+.section3-box{
+	width:400px;
+	float: left;
+	margin-top: 300px;
+	margin-left: 100px;
+	color:black;
+}
+.section3-box p{
+	color: #abafb6;
+}
+.section4-box {
+	width:610px;
+	color:white;
+	padding-top: 60px;
+	padding-left:405px;
+	padding-right: 405px;
+}
+.section4-box p{
+	margin-top: 30px;
+	text-align: center;
+	color: #abafb6;
+}
+/**SECTION ENDS**/
+/**SECTION FIVE STARTS**/
+.section5-box {
+	width:500px;
+	color:black;
+	text-align: center;
+	padding-top: 60px;
+	padding-left:460px;
+	padding-right: 460px;
+}
+.section5-box p{
+	margin-top: 30px;
+	text-align: center;
+	color: #abafb6;
+	margin-bottom: 150px;
+}
+.amazon-button {
+	width:185px;
+	height: 17px;
+	font-size: 14px;
+	background-color:#1f76d1;
+	border-radius: 25px;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.amazon-button a {
+	color:white;
+	text-decoration: none;
+}
+.amazon-button:hover{
+	background: #228dfb;
 
+
+/**SECTIONS FIVE ENDS**/
+/**SLIDES**/
+#slide1, #slide2, #slide3, #slide5{
+	width: 100%;
+	height:825px;
+	margin:0;
+	background-size: cover;
+}
+#slide1{
+	background:url(../img/gear.png) 100% 0 no-repeat fixed;
+}
+#slide2{
+	background:url(../img/ice.png) 100% 0 no-repeat fixed;
+}
+#slide3{
+	background:url(../img/section3.png) 100% 0 no-repeat fixed;
+}
+#slide4{
+	background-color: black;
+	width:100%;
+	height:300px;
+	margin: 0;
+	background-size:cover;
 }

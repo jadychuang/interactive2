@@ -4,12 +4,44 @@
 <head>
   <title>Gear TR</title>
    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+   <script type="text/javascript" src="assets/js/oculus.js"></script>
+
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link rel="icon" href="assets/img/favicon.gif" type="image/gif" sizes="16x16">
+<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
  </head>
 
  <!--SECTION ONE-->
-<html class="gear-bg"></html>
+<div id="slide1">
 <div class="home">
 	<a href="index.html">
 		<img src="assets/img/logo.png">
@@ -25,7 +57,7 @@
     </ul>
 </div>
 
-<div class="container2">
+<div class="section1-box">
 		<img src="assets/img/delta.png">
 		<img src="assets/img/oculus.png">
 	<h4>Come travel with us. It's virtual reality, be anywhere at anytime.</h4>
@@ -33,12 +65,44 @@
 			<a href="gear.html">Subscribe for $49.99/mo.</a>
 		</div>
 </div>
+</div>
 <!--SECTION ONE ENDS-->
 <!--SECTION TWO STARTS-->
-<div class="container-ice">
-	<img src="assets/img/ice.png">
-
+<div id="slide2">
+  <div class="section2-box">
+    <h2>Experience and collect the signatures of the world.</h2></div>
 </div>
+<!--SECTION TWO ENDS-->
+<!--SECTION THREE STARTS-->
+<div id="slide3">
+  <div class="section3-box">
+    <h2>Come get your virtual passport.</h2>
+    <p>Whenever you want to getaway from everything, just put on the Gear TR, and you're off on a vacation. It's that simple.</p>
+  </div>
+</div>
+<!--SECTION THREE ENDS-->
+<!--SECTION FOUR STARTS-->
+<div id="slide4">
+  <div class="section4-box">
+    <h2>Download extroardinary geographic sceneries.</h2>
+    <p>It's easy to transport yourself with the Gear TR. Whether you want to go on a hike, travel to the Great Wall, or lay on the beach, the possibilities with Gear TR are limitless.</p>
+  </div>
+</div>
+<!--SECTION FOUR ENDS-->
+<!--SECTION FIVE STARTS-->
+<div id="slide5">
+  <div class="section5-box">
+    <h2>Subscribe yours today.</h2>
+      <p>Subscribe your Gear VR with our retail partners below.</p>
+        <img src="assets/img/amazon.png">
+      <p>Amazon.com</p></div>
+            <div class="amazon-button">
+                <a href="&">Subscribe for $49.99/mo.</a>
+            </div>
+  
+</div>
+
+
 
  </body>
  </html>
