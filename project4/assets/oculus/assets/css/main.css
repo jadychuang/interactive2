@@ -1,0 +1,75 @@
+body {
+	background-image: url(../img/home.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.home {
+	width:60px;
+	height: 40px;
+	position: relative;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+/**MENU BAR STARTS**/
+.menu-bar {
+	float: right;
+	position: relative;
+	margin-right: 550px;
+	margin-top: 20px;
+}
+#nav {
+	list-style: none;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+#nav li {
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#nav a {
+	text-decoration: none;
+	color: #abafb6;
+}
+#nav a:hover {
+	color: black;
+	cursor: pointer;
+}
+/**MENU BAR ENDS**/
+.container1 {
+	width:600px;
+	height:400px;
+	float: right;
+	margin-top: 400px;
+	position: relative;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	line-height: 0.6em;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #abafb6;
+}
+.home-button {
+	width:85px;
+	height: 17px;
+	font-size: 14px;
+	background-color:#1f76d1;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 25px;
+	padding-left:55px;
+	padding-right: 55px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.home-button a {
+	color:white;
+	text-decoration: none;
+}
+.home-button:hover{
+	background: #228dfb;
+}
