@@ -1,26 +1,31 @@
+html, body {
+	height: 100%;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
+	margin: 0;
 }
+
 /**HOME PAGE STARTS**/
 .home-bg {
-	background-image: url(../img/home.jpg);
+	background-image: url(../img/home.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	margin:0;
+	background-size: cover;
 }
 .home {
 	width:60px;
 	height: 40px;
-	position: relative;
+	/*position: relative;*/
 	margin-left: 25px;
 	margin-top: 10px;
-	float: left;
+	/*float: left;*/
 }
 /**MENU BAR STARTS**/
 .menu-bar {
-	float: right;
-	position: relative;
-	margin-right: 550px;
-	margin-top: 10px;
+	position: absolute;
+	top: 10px;
+	right: 550px;
 }
 #nav {
 	list-style: none;
@@ -41,15 +46,14 @@ body {
 }
 /**MENU BAR ENDS**/
 .container1 {
-	width:600px;
-	height:400px;
-	float: right;
-	margin-top: 400px;
-	position: relative;
+	max-width:550px;
+	position: absolute;
+	bottom: 200px;
+	right: 100px;
+	margin-left:25px;
 }
 h1 {
 	font-size: 35px;
-	line-height: 0.6em;
 }
 h2 {
 	font-size: 24px;
@@ -84,11 +88,11 @@ p{
 /**HOME PAGE ENDS**/
 /**SECTION ONE STARTS**/
 .section1-box {
-	width:400px;
+	max-width:400px;
 	height:300px;
-	float: left;
-	margin-top: 400px;
-	position: relative;
+	left:50px;
+	bottom: 100px;
+	position: absolute;
 }
 .section1-box h4 {
 	color: #abafb6;
@@ -179,7 +183,6 @@ p{
 #slide1, #slide2, #slide3, #slide5{
 	width: 100%;
 	height:825px;
-	margin:0;
 	background-size: cover;
 }
 #slide1{
@@ -200,4 +203,28 @@ p{
 }
 #slide5{
 	background: url(../img/plane.png) 100% 0 no-repeat fixed;
+}
+
+/* MEDIA QUERIES
+------------------------------------------*/
+@media screen and (max-width: 1175px){
+
+	.menu-bar {
+		top: 60px;
+		right:auto;
+	}
+
+	#nav li {
+		float: none;
+	}
+
+	.container1 h1 span {
+		display: block;
+		left: 25px;
+		right:auto;
+	}
+
+	#slide1, #slide2, #slide3, #slide5 {
+	}
+
 }

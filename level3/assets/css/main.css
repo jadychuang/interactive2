@@ -1,0 +1,1866 @@
+body {
+	background: #00FF00;
+	margin: 10px 40px;
+}
+body.home {
+	background: yellow;
+	margin:40px;
+}
+.letter {
+	display: inline-block;
+	float:left;
+	margin:-50px;
+	margin-bottom: -100px;
+	position: relative;
+	width:250px;
+	height:350px;
+	transform:scale(0.6);
+}
+.number {
+	display: inline-block;
+	float:left;
+	margin:-50px;
+	margin-bottom: -100px;
+	position: relative;
+	width:125px;
+	height:350px;
+	transform:scale(0.6);
+}
+.letters {
+	margin: 0 auto;
+}
+button {
+  color: yellow;
+  font-size: 20px;
+  background: #000099;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  border:none;
+  letter-spacing: 5px;
+
+}
+button:hover {
+  color:white;
+  background: #eb008b;
+  text-decoration: none;
+}
+/*THANKYOU BUTTON*/
+.thankyou-button {
+  color: yellow;
+  font-size: 20px;
+  background: #000099;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  border:none;
+  letter-spacing: 5px;
+  width:121px;
+  margin-left: 2px;
+  display: inline-block;
+}
+.thankyou-button a {
+	color:white;
+	text-decoration: none;
+}
+.thankyou-button:hover{
+  color:white;
+  background: #eb008b;
+  text-decoration: none;}
+/*LETTER A STARTS*/
+.a {
+	position: relative;
+
+}
+.a .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.a .h1 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.a .h2 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.a .h3 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+.a .short-v1 {
+	width: 20px;
+	height:150px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:185;
+}
+.a .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:25;
+}
+/*LETTER A ENDS*/
+/*LETTER B STARTS*/
+.b {
+	position: relative; 
+}
+.b .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.b .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.b .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.b .h2 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 20;
+	top: 330;
+}
+.b .short-v1 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:180;
+}
+/*LETTER B ENDS*/
+/*LETTER C STARTS*/
+.c {
+	position: relative; 
+}
+.c .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:25;
+}
+.c .h1 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.c .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.c .h2 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+/*LETTER C ENDS*/
+/*LETTER D STARTS*/
+.d {
+	position: relative; 
+}
+.d .h1 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.d .h2 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.d .short-v1 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:180;
+}
+.d .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:0;
+}
+.d .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:15;
+}
+/*LETTER D ENDS*/
+/*LETTER E STARTS*/
+.e {
+	position: relative; 
+}
+.e .h1 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.e .h2 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.e .h3 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.e .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.e .short-v1 {
+	width: 20px;
+	height:175px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:10;
+}
+.e .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:230;
+	top:290;
+}
+/*LETTER E ENDS*/
+/*LETTER F STARTS*/
+.f {
+	position: relative; 
+}
+.f .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.f .h2 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.f .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.f .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*LETTER F ENDS*/
+/*LETTER G STARTS*/
+.g {
+	position: relative; 
+}
+.g .short-v1 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:40;
+	top:10;
+}
+.g .short-v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:190;
+	top:10;
+}
+.g .short-h1 {
+	width: 150px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:0;
+}
+.g .short-h2 {
+	width: 150px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:145;
+}
+.g .middle {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:145;
+}
+.g .long-v1 {
+	width: 20px;
+	height:140px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:205;
+}
+.g .long-v2 {
+	width: 20px;
+	height:140px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:205;
+}
+.g .long-h1 {
+	width: 235px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:195;
+}
+.g .long-h2 {
+	width: 235px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:330;
+}
+/*#0066CC*/
+/*LETTER G ENDS*/
+/*LETTER H STARTS*/
+.h {
+	position: relative;
+}
+.h .long-v1{
+	width: 20px;
+	height:350px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.h .h1{
+	width: 200px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.h .short-v1{
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:180;
+}
+.h .ft{
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:330;
+}
+/*LETTER H ENDS*/
+/*LETTER I STARTS*/
+.i {
+	position: relative;
+}
+.i .long-v1 {
+	width: 20px;
+	height:350px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:0;
+}
+.i .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:95;
+	top:330;
+}
+/*LETTER I ENDS*/
+/*LETTER J STARTS*/
+.j {
+	position: relative;
+}
+.j .long-v1 {
+	width: 20px;
+	height:325px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.j .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 20;
+	top: 310;
+}
+.j .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*LETTER J ENDS*/
+/*LETTER K STARTS*/
+.k {
+	position: relative;
+}
+.k .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.k .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.k .short-v1 {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:180;
+	top:0;
+}
+.k .short-v2 {
+	width: 20px;
+	height:170px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:180;
+}
+.k .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*LETTER K ENDS*/
+/*LETTER L STARTS*/
+.l {
+	position: relative;
+}
+.l .long-v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.l .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 310;
+}
+.l .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:230;
+	top:290;
+}
+/*LETTER L ENDS*/
+/*LETTER M STARTS*/
+.m {
+	position: relative;
+}
+.m .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.m .long-v2 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:5;
+}
+.m .long-v3 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:5;
+}
+.m .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:95;
+	top:330;
+}
+.m .h1 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+/*LETTER M ENDS*/
+/*LETTER N STARTS*/
+.n {
+	position: relative;
+}
+.n .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.n .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.n .long-v2 {
+	width: 20px;
+	height:330px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+.n .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:330;
+}
+/*LETTER N ENDS*/
+/*LETTER O STARTS*/
+.o {
+	position: relative;
+}
+.o .h1 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.o .h2 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.o .long-v1 {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.o .long-v2 {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+/*LETTER O ENDS*/
+/*LETTER P STARTS*/
+.p {
+	position: relative;
+}
+.p .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.p .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:330;
+}
+.p .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.p .h2 {
+	width: 225px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.p .short-v1 {
+	width: 20px;
+	height:175px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:5;
+}
+/*LETTER P ENDS*/
+/*LETTER Q STARTS*/
+.q {
+	position: relative;
+}
+.q .h1 {
+	width: 220px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.q .h2 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.q .short-v1 {
+	width: 20px;
+	height:185px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.q .long-v1 {
+	width: 20px;
+	height:330px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+.q .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:330;
+}
+/*LETTER Q ENDS*/
+/*LETTER R STARTS*/
+.r {
+	position: relative;
+}
+.r .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.r .h1 {
+	width: 170px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.r .h2 {
+	width: 200px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:175;
+}
+.r .short-v1 {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:160;
+	top:5;
+}
+.r .short-v2 {
+	width: 20px;
+	height:170px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:180;
+}
+.r .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:330;
+}
+/*LETTER R ENDS*/
+/*LETTER S STARTS*/
+.s {
+	position: relative;
+}
+.s .h1 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.s .h2 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.s .h3 {
+	width: 230px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 20;
+	top: 310;
+}
+.s .short-v1 {
+	width: 20px;
+	height:185px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.s .short-v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:180;
+}
+.s .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*LETTER S ENDS*/
+/*LETTER T STARTS*/
+.t {
+	position: relative;
+}
+.t .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:0;
+}
+.t .h1 {
+	width: 225px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 25;
+	top: 330;
+}
+.t .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:40;
+}
+/*LETTER T ENDS*/
+/*LETTER U STARTS*/
+.u {
+	position: relative;
+}
+.u .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.u .long-v2 {
+	width: 20px;
+	height:335px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+.u .h1 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.u .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:0;
+}
+/*LETTER U ENDS*/
+/*LETTER V STARTS*/
+.v {
+	position: relative;
+}
+.v .long-v1 {
+	width: 20px;
+	height:295px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.v .long-v2 {
+	width: 20px;
+	height:290px;
+	background: #000099;
+	position: absolute;
+	left:210;
+	top:5;
+}
+.v .h1 {
+	width:60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:285;
+}
+.v .h2 {
+	width:90px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:70;
+	top:330;
+}
+.v .h3 {
+	width:60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:165;
+	top:285;
+}
+.v .short-v1 {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:290;
+}
+.v .short-v2 {
+	width: 20px;
+	height:60px;
+	background: #000099;
+	position: absolute;
+	left:160;
+	top:290;
+}
+.v .ft{
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:190;
+	top:0;
+}
+/*LETTER V ENDS*/
+/*LETTER W STARTS*/
+.w {
+	position: relative;
+}
+.w .long-v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.w .long-v2 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:0;
+}
+.w .long-v3 {
+	width: 20px;
+	height:335px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.w .h1 {
+	width: 235px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 10;
+	top: 330;
+}
+.w .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:95;
+	top:0;
+}
+/*LETTER W ENDS*/
+/*LETTER X STARTS*/
+.x {
+	position: relative;
+}
+.x .x-1 {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:40;
+	top:0;
+}
+.x .x-2 {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:190;
+	top:0;
+}
+.x .x-3 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:185;
+}
+.x .x-4 {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:185;
+}
+.x .h1 {
+	width: 230px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.x .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:170;
+	top:0;
+}
+/*LETTER X ENDS*/
+/*LETTER Y STARTS*/
+.y {
+	position: relative;
+}
+.y .y-left {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.y .y-right {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:0;
+}
+.y .h1 {
+	width: 230px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.y .stem {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:115;
+	top:185;
+}
+.y .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:95;
+	top:330;
+}
+/*LETTER Y ENDS*/
+/*LETTER Z STARTS*/
+.z {
+	position: relative;
+}
+.z .h1 {
+	width: 240px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.z .h2 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:175;
+}
+.z .h3 {
+	width: 245px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 0;
+	top: 310;
+}
+.z .v1 {
+	width: 20px;
+	height:175px;
+	background: #000099;
+	position: absolute;
+	left:230;
+	top:5;
+}
+.z .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:40;
+	top:180;
+}
+.z .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:230;
+	top:290;
+}
+/*LETTER Z ENDS*/
+/*NUMBER ONE STARTS*/
+.one {
+	position: relative;
+}
+.one .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.one .v1 {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:5;
+}
+.one .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:65;
+	top:330;
+}
+/*NUMBER ONE ENDS*/
+/*NUMBER TWO STARTS*/
+.two {
+	position: relative;
+}
+.two .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.two .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.two .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.two .curve {
+	width:20px;
+	height:80px;
+	background: #000099;
+	position:absolute;
+	left:0;
+	top:5;
+}
+.two .v1 {
+	width: 20px;
+	height:175px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:5;
+}
+.two .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:180;
+}
+.two .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:95;
+	top:290;
+}
+/*NUMBER TWO ENDS*/
+/*NUMBER THREE STARTS*/
+.three {
+	position: relative;
+}
+.three .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.three .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.three .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.three .v1 {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:5;
+}
+.three .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER THREE ENDS*/
+/*NUMBER FOUR STARTS*/
+.four {
+	position: relative;
+}
+.four .v1-short {
+	width: 20px;
+	height:190px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.four .v2-long {
+	width: 20px;
+	height:345px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:0;
+}
+.four .h1 {
+	width: 80px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.four .ft {
+	width: 60px;
+	height:20px;
+	background: #EB008B;
+	position: absolute;
+	left:65;
+	top:330;
+}
+/*NUMBER FOUR ENDS*/
+/*NUMBER FIVE STARTS*/
+.five {
+	position: relative;
+}
+.five .v1 {
+	width:20px;
+	height:180px;
+	background: #000099;
+	position:absolute;
+	left:0;
+	top:5;
+}
+.five .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:180;
+}
+.five .curve {
+	width:20px;
+	height:80px;
+	background: #000099;
+	position:absolute;
+	left:95;
+	top:5;
+}
+.five .h1 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.five .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.five .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.five .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER FIVE ENDS*/
+/*NUMBER SIX STARTS*/
+.six {
+	position: relative;
+}
+.six .v1-long {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:25;
+}
+.six .h1 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.six .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.six .h3 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+.six .v2-short {
+	width: 20px;
+	height:165px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:180;
+}
+.six .ft {
+	width:20px;
+	height:60px;
+	background: #EB008B;
+	position:absolute;
+	left:95;
+	top:0;
+}
+/*NUMBER SIX ENDS*/
+/*NUMBER SEVEN STARTS*/
+.seven {
+	position: relative;
+}
+.seven .h1 {
+	width: 80px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.seven .v1 {
+	width: 20px;
+	height:325px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:25;
+}
+.seven .h2 {
+	width: 60px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:65;
+	top:175;
+}
+.seven .ft {
+	width:20px;
+	height:60px;
+	background: #EB008B;
+	position:absolute;
+	left:0;
+	top:0;
+}
+/*NUMBER SEVEN ENDS*/
+/*NUMBER EIGHT STARTS*/
+.eight {
+	position: relative;
+}
+.eight .v-left {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.eight .v-right {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:5;
+}
+.eight .h1 {
+	width: 120px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.eight .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.eight .h3 {
+	width: 90px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+/*NUMBER EIGHT ENDS*/
+/*NUMBER NINE STARTS*/
+.nine {
+	position: relative;
+}
+.nine .v1-short {
+	width: 20px;
+	height:185px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.nine .v2-long {
+	width: 20px;
+	height:320px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:5;
+}
+.nine .h1 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.nine .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.nine .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.nine .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER NINE ENDS*/
+/*NUMBER ZERO STARTS*/
+.zero {
+	position: relative;
+}
+.zero .v-left {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:5;
+}
+.zero .v-right {
+	width: 20px;
+	height:340px;
+	background: #000099;
+	position: absolute;
+	left:85;
+	top:5;
+}
+.zero .h1 {
+	width: 120px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:0;
+}
+.zero .h2 {
+	width: 90px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 330;
+}
+/*NUMBER ZERO ENDS*/
+/*NUMBER MONEY STARTS*/
+.money {
+	position: relative;
+}
+.money .v1 {
+	width:20px;
+	height:160px;
+	background: #000099;
+	position:absolute;
+	left:0;
+	top:25;
+}
+.money .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:180;
+}
+.money .middle {
+	width: 20px;
+	height:350px;
+	background: #000099;
+	position: absolute;
+	left:50;
+	top:0;
+}
+.money .h1 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:20;
+}
+.money .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:5;
+	top:175;
+}
+.money .h3 {
+	width: 95px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left: 5;
+	top: 310;
+}
+.money .ft {
+	width: 20px;
+	height:60px;
+	background: #EB008B;
+	position: absolute;
+	left:0;
+	top:290;
+}
+/*NUMBER MONEY ENDS*/
+/*NUMBER QUESTION STARTS*/
+.question {
+	position: relative;
+}
+.question .ft {
+	width:20px;
+	height:60px;
+	background: #EB008B;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.question .h1 {
+	width: 85px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:20;
+	top:20;
+}
+.question .h2 {
+	width: 100px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:10;
+	top:175;
+}
+.question .v1 {
+	width: 20px;
+	height:160px;
+	background: #000099;
+	position: absolute;
+	left:95;
+	top:25;
+}
+.question .v2 {
+	width: 20px;
+	height:145px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:180;
+}
+.question .dot {
+	width: 20px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*NUMBER QUESTION ENDS*/
+/*NUMBER ! STARTS*/
+.ex {
+	position: relative;
+}
+.ex .v1 {
+	width: 20px;
+	height:325px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.ex .dot {
+	width: 20px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:330;
+}
+/*NUMBER ! ENDS*/
+/*ARROW STARTS*/
+.arrow {
+	position: relative;
+}
+
+.arrow .h1 {
+	width: 210px;
+	height:20px;
+	background: #000099;
+	position: absolute;
+	left:0;
+	top:175;
+}
+
+.arrow .d1 {
+	width: 70px;
+	height:20px;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	background: #000099;
+	position: absolute;
+	left: 150px;
+    top: 150px;
+}
+
+.arrow .d2 {
+	width: 70px;
+	height:20px;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+	background: #000099;
+	position: absolute;
+	left: 150px;
+    top: 200px;
+}
+/*ARROW ENDS*/
+
+.letter-definition {
+    display: none;
+}
+
+.space {
+	width: 200px;
+	height: 200px;
+	background: transparent !important;
+}
